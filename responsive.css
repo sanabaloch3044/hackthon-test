@@ -1,0 +1,181 @@
+
+
+/* for small screen */
+
+@media (min-width:56px) and (max-width:576px)
+{
+    .containertwo{
+        display: flex;
+        flex-direction: column;
+    height: 90vh;
+    align-items: center;
+    }
+
+    .boxone{
+margin-top: 20px;
+font: 10px;
+
+    }
+
+.boxtwo{
+    margin-top: 50px;
+    height: 50vh;
+}
+
+#inputone{
+    margin-top: 10px;
+    margin-left: 0px;
+    
+    }
+
+ 
+
+.messagebox{
+    height: 25vh;
+   padding-bottom: 40px ;
+
+    }
+    .smsbox{ 
+        height: 25vh;
+        padding-bottom:40px;
+  
+    }
+    .editbox{
+        height: 25vh;
+        padding-bottom: 50px ;
+    }
+    
+
+    .tptext{
+        margin-top: 400px;
+    }
+    
+    .ptext{
+        margin-bottom: 20px;
+        }
+        
+        .rtext{
+          margin-bottom: 20px;
+        
+        }
+
+        .booknowbutton{
+margin-left: 7px;
+        }
+
+        #pluss{
+    
+            margin-top: 10px;
+            font-size: 20px;
+        
+        }
+        
+        #boldd{
+            padding: 20px;
+        }
+        
+        #boldddd{
+            margin-top: 30px;
+            font-size: 15px;
+        }
+        
+        #boldtextt{
+            padding: 10px;
+            font-style: oblique;
+          
+        }
+        .containerthree{
+            height: 60vh;
+        }
+    }
+
+
+/* for medium screen */
+
+@media (min-width:576px) and (max-width:992px)
+{
+    .containertwo{
+        display: flex;
+    height: 50vh;
+    align-items: center;
+    }
+
+    .boxone{
+margin-top: 300px;
+
+    }
+
+.boxtwo{
+    margin-top: 50px;
+    height: 50vh;
+}
+
+#inputone{
+    margin-top: 10px;
+    margin-left: 20px;
+
+
+}
+.buttnnn{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.tptext{
+    margin-top: 300px;
+}
+
+.ptext{
+    margin-bottom: 20px;
+    }
+    
+    .rtext{
+      margin-bottom: 20px;
+font-size: x-large;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    }
+    .containerthree{
+        height: 40vh;
+    }
+
+.lastcontainer{
+    height: 35vh;
+}
+}
+
+/* For large screen */
+
+@media (min-width:992px) and (max-width:1400px)
+{
+    .buttnnn{
+     margin-left: 320px;
+        padding: 20px;
+        
+}
+.services{
+    margin-left: 200px;
+}
+
+.contactusb{
+    margin-left: 80px;
+    background-color: white !important;
+    color: black !important;
+}
+#inputone{
+    margin-top: 10px;
+    margin-left: 100px;
+
+
+}
+.buttnnn{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-top: 2px;
+}
+.tptext{
+    margin-top: 20px;
+}
+
+}

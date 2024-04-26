@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+/* cONTAINER ONE */
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.searchbar{
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.services{
+    margin-left: 600px;
+}
+
+.contactusb{
+    padding: 7px !important;
+    border-radius: 20px !important;
+    margin-left: 80px;
+ 
+}
+
+.navbar-brand{
+    margin: 60px;
+}
+
+/* CONTAINER TWO */
+
+.containertwo{
+    background-image: url(IMAGES/BACK.png);
+        width: 100%;
+        height: 110vh;
+        background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+        display: flex;
+      
+}
+
+.boxone{
+width: 50%;
+height: 90vh;
+
+}
+
+.boxtwo{
+    width: 50%;
+    height: 90vh;
+
+    
+}
+
+#welcometext{
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+#mtext{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#paratext{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+#inputone{
+    margin-top: 50px;
+    margin-left: 300px;
+border-radius: 20px;
+height: 4vh;
+size: 30px;
+}
+.buttnnn{
+  border-radius: 20px;
+  height: 5vh;
+  padding: 10px;
+  background-color:black;
+  color: white;
+}
+
+#threestep{
+    text-align:  center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+#texxt{
+    text-align:  center;
+    margin-top: 20px;
+}
+
+
+/* THREE BOXES */
+
+.threeboxes{
+    
+    display: flex;
+    padding-top: 30px;
+    width: 100%;
+    height: 40vh;
+
+}
+
+.messagebox{
+
+width: 30%;
+height: 40vh;
+}
+.smsbox{
+
+width: 30%;
+height: 40vh;
+}
+.editbox{
+
+width: 30%;
+height: 40vh;
+}
+
+/* TEXT */
+
+.ptext{
+font-size: large;
+font-weight: 600;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.rtext{
+    font-size: xx-large;
+font-weight: 600;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* CARDSSS */
+
+.card-group{
+    width: 100%;
+    height: 40vh;
+}
+
+.cardone{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+
+.cardtwo{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+
+.cardthree{
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+}
+
+/* TEXT DIVVV */
+
+.headingg{ 
+    margin-top: 30px;
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+    height: 8vh;
+    width: 100%;
+    
+padding-top: 15px;
+}
+
+/* GROUP IMG WITH TEXT */
+
+.containerthree{
+    margin-top: 30px;
+    display: flex;
+width: 100%;
+height: 80vh;
+background-color: #C1DEE8;
+
+}
+
+.partone{
+   margin-top: 60px;
+width: 60%;
+height: 60%;
+}
+
+.parttwo{
+    margin-top: 50px;
+width: 50%;
+height: 60%;
+}
+
+
+
+
+.heead{
+    font-size: 30px; 
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.paara{
+    font-size: 15px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.booknowbutton{
+    margin-top: 30px;
+margin-left: 50px;
+background-color: black !important;
+color: white !important;
+border-radius: 20px !important;
+padding: 10px !important;
+}
+
+.booknowbutton:hover{
+    color: black !important;
+    background-color: white !important;
+}
+
+.readbutton{
+    margin-top: 30px;
+margin-left: 5px;
+background-color: black !important;
+color: white !important;
+border-radius: 20px !important;
+padding: 10px !important;
+}
+
+.readbutton:hover{
+    color: black !important;
+    background-color: white !important;
+}
+
+#pluss{
+    
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+
+#boldd{
+    padding: 30px;
+}
+
+#boldddd{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#boldtextt{
+    padding: 25px;
+    font-style: oblique;
+}
+
+ /* LASTTTT CONTAINERRRR */
+
+ .lastcontainer{
+    margin-top: 40px;
+    background-color: #FBD9B9;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+
+ }
+
+ .lastone{
+width: 60%;
+height: 40vh;
+margin-top: 40px;
+ }
+ .subscribetext{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+.loremtext{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ .lastimgdiv{
+    margin-left: 150px;
+width: 40%;
+height: 40vh;
+ }
